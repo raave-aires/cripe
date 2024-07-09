@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <title>Cripë</title>
+</head>
+<body>
+    <main class="display-grid">
+        <div class="grid-item-1">
+            <h1 id="logo">Cripë</h1>
+        </div>
+
+        <div class="grid-item-2">
+            <textarea name="texto" id="inptTextArea" placeholder="Digite o texto aqui"></textarea>
+            <div class="box-exclamation">
+                <svg width="17px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z"
+                        clip-rule="evenodd" />
+                </svg>
+                <small>Digite apenas letras minúsculas e sem acentuação.</small>
+            </div>
+            <div class="box-controls">
+                <button id="btnEncrypted">Criptografar</button>
+                <button id="btnDecrypted">Descriptografar</button>
+            </div>
+        </div>
+        <div class="grid-item-3">
+            <div class="box-result-encriptador">
+                <img class="pre-information" src="./assets/svg/boneco.svg" alt="empty message">
+                <h2 class="pre-information" >Nenhuma mensagem encontrada</h2>
+                <span class="pre-information" >Ao lado, digite um texto que você deseja criptografar ou descriptografar.</span>
+                <textarea id="outptTextArea" id="inpt_texto" placeholder="Ingresa el texto aquí"></textarea>
+                <button id="btnCopyResult">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <div class="byDeveloper">
+            <small>Desenvolvido com &#x2764; por <a target="_blank" href="https://github.com/raave-aires">Raavë Aires</a></small>
+       </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
