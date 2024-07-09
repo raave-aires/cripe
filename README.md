@@ -2,7 +2,7 @@
 Este projeto é o resultado do primeiro *challenge*/desafio desenvolvido na 7ª turma da #OracleNextEducation, apelidado por mim de "*Cripe*" :rocket:
 
 ### Prévia no GitHub Pages:
-⛓️: 
+⛓️: [Cripë](https://raave-aires.github.io/cripe/)
 
 ## 📋 Sobre
 Feito com HTML, CSS e Javascript esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples. Visando a troca de informações com outras pessoas de uma forma segura e divertida.

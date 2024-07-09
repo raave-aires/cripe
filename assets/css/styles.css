@@ -1,13 +1,13 @@
 @font-face {
     font-family: now;
-    src: url('/assets/fontes/now-bold.woff2');
+    src: url('./assets/fontes/now-bold.woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: tenorite;
-    src: url('/assets/fontes/tenorite.woff2') format('opentype');
+    src: url('./assets/fontes/tenorite.woff2') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
